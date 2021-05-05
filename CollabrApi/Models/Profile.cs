@@ -7,7 +7,7 @@ namespace CollabrApi.Models
 {
     public class Profile
     {
-        private long UserId { get; set; }
+        public long Id { get; set; }
         private string AvatarPicturePath { get; set; }
         private string SongOnePath { get; set; }
         private string SongTwoPath { get; set; }

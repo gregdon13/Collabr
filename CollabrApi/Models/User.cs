@@ -7,7 +7,7 @@ namespace CollabrApi.Models
 {
     public class User
     {
-        private long ID { get; set; }
+        public long Id { get; set; }
         private string FirstName { get; set; }
         private string LastName { get; set; }
         // recommend using artist name vvv
